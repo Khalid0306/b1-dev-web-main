@@ -20,12 +20,22 @@
             </ul>
         </nav>
     </header>
-    <main class="container">
-        <h1>Jeu</h1>
-        <p>Score</p>
+    <main class="containerjeu">
+        <h1><center><b>Click-Box</b></center></h1>
+        <p><b>Score</b></p>
         <div id="score">0</div>
-        <p>Chrono</p>
+        <p><b>chrono</b></p>
         <div id="chrono"></div>
+        <form id="user-form">
+            <label for="pseudo"><b>Pseudo:</b></label>
+            <div>  <input type="text" id="pseudo" name="pseudo" required>
+                <button type="submit">Enregistrer le score</button>
+            </div>
+        </form>
+        <div id="score-list">
+            <h2>Liste des scores</h2>
+            <ul></ul>
+        </div>
         <button type= "button" id= "btn" onclick= "startGame()">Start the game</button>
         <div class="box"></div>
         <div class="zone_de_jeu"></div>
