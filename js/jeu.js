@@ -62,7 +62,7 @@ if(gameStart == true && chrono != 0)
     let top = Math.floor(Math.random() * window.innerHeight);
     let left = Math.floor(Math.random() * window.innerWidth);
     // Vérifie si la cible apparait dans la zone de jeu
-    while( top <= 300 || top >= (window.innerHeight - 200) || left <= 200|| left >= (window.innerWidth -200))
+    while( top <= 400 || top >= (window.innerHeight - 200) || left <= 200|| left >= (window.innerWidth -200))
     {
         top = Math.floor(Math.random() * window.innerHeight);
         left = Math.floor(Math.random() * window.innerWidth);
